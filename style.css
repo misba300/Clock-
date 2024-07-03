@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to top,     rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#clock{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin: 150px 20px 0px 20px;
+    
+}
+
+#time {
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-size: 40px;
+    position: center;
+    align-item: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 10px;
+    margin: 20px 20px 20px 20px;
+    color: #c6d8a2;
+    font-family:Cursive,Brush,ScriptMT;
+}
+    
+
+p{
+    font-size:12px;
+    font-weight: normal;
+    font-family: Monospace,Courier,New;
+}
+
+
+
+#social{
+    margin: 25px 2px 2px 2px;
+    font-size: 25px;
+    height: 25px;
+    width:350px; 
+    align-item: center;
+    position: center;
+    transition: ese-out 2s;
+    text-align: center;
+    justify-content: center;
+}
+a,i{
+    color: #13e720ee;
+}
+#f{
+    margin: 0px  25px 1px 50px;
+}
+    
+#y{
+    margin: 0px  25px 1px 50px;
+}
+
+#i{
+    margin: 0px  25px 1px 45px;
+}
+
+.developed {
+    font-size: 13px;
+    font-family: Monospace,Courier,New;
+    color: white;
+    margin: 30px 0px 0px 0px;
+    align-item: center;
+}
+
+
+#ampm{
+    color: #00ddf1;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px 0px 2px 15px;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-top: dotted;
+     border-bottom: dotted;
+    padding: 5px;   
+    border-radius: 7px;
+}
+.bottom{
+    margin-top: 250px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-item: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+social, a:hover{
+    background-color: #0029e7ee;
+    padding: 5px;
+    border: 1px solid hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#link{
+    text-decoration: none;
+   
+    }
+
+
+
+
+
+
+
+
+
